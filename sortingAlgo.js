@@ -84,7 +84,7 @@ class sortingALgorithms{
         if(low<high){
             let pivotIndex = this.partition(low,high);
             this.quickSort(low,pivotIndex-1)
-            this.quickSort(pivotIndex,high)
+            this.quickSort(pivotIndex+1,high)
         }
     }
 
